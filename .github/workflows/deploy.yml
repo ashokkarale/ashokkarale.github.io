@@ -2,7 +2,7 @@ name: Refresh data and deploy
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   schedule:
     - cron: "30 20 * * *" # every day at 02:00 IST: refresh forum and Medium data
   workflow_dispatch:
