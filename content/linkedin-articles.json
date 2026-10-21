@@ -1,0 +1,66 @@
+[
+  {
+    "date": "2025-02-28",
+    "title": "Part 3: uipathcli - It's show time 🤖",
+    "short": "Part 3",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/part-3-uipathcli-its-show-time-ashok-karale-le1vf",
+    "excerpt": "Part 1: Part 1: uipathcli - Getting started! Part 2: Part 2: uipathcli - Setup it on Windows OS We've explored what UiPath CLI is and how to set it up—now it's time for the grand finale! In this final part of the series,…"
+  },
+  {
+    "date": "2025-02-17",
+    "title": "Part 2: uipathcli - Setup it on Windows OS",
+    "short": "Part 2",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/part-2-uipathcli-setup-windows-os-ashok-karale-a7muf",
+    "excerpt": "Part 1: Part 1: uipathcli - Getting started! In part 1 of the series I covered introduction about the uipathcli. Now it's time to get started with setting up the environment and get the CLI ready to use. Install 1️⃣ Navi…"
+  },
+  {
+    "date": "2025-02-15",
+    "title": "Part 1: uipathcli - Getting started!",
+    "short": "Part 1",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/part-1-uipathcli-getting-started-ashok-karale-xg3mf",
+    "excerpt": "Imagine you have a magical wand that lets you talk directly to your UiPath Orchestrator and make it do all the cool UiPath stuff without even opening the Orchestrator. That wand is called UiPath CLI! It's been here since…"
+  },
+  {
+    "date": "2024-06-29",
+    "title": "Activities looks different and unable to expand when code extracted from NuGet package.",
+    "short": "Activities looks different a",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/activities-looks-different-unable-expand-when-code-extracted-karale-3md8f",
+    "excerpt": "Have you faced this kind of issue where activities not displaying correctly when code is extracted from a NuGet package? The workflow and it's activities looks like this: How to fix this and get the normal view of the wo…"
+  },
+  {
+    "date": "2024-06-18",
+    "title": "Deep dive into Global Variables in UiPath",
+    "short": "Deep dive into Global Variab",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/deep-dive-global-variables-uipath-ashok-karale-5vvof",
+    "excerpt": "Global variables are helpful in managing data and configurations that need to be accessed across various workflows of a project. In this article, we will explore the concept of global variables in UiPath, their importanc…"
+  },
+  {
+    "date": "2024-04-07",
+    "title": "UiPath Taxonomy Manager is not Launching",
+    "short": "UiPath Taxonomy Manager is n",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/uipath-taxonomy-manager-launching-ashok-karale-vnjif",
+    "excerpt": "Many users recently reported an issue regarding Document Understanding Template in UiPath Studio. Users are unable to Open Taxonomy Manager. When we try to open it through Studio, it's throwing two error popups: UiPath.S…"
+  },
+  {
+    "date": "2024-03-16",
+    "title": "Get Queue items returning Items with “null” specific content",
+    "short": "Get Queue items returning It",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/get-queue-items-returning-null-specific-content-ashok-karale-5zfjf",
+    "excerpt": "H ave you encountered issues with UiPath Studio similar to the one below recently? Get Queue items - Items returning “null” specific content in the activity. But have specific content in Orchestrator Queue. The code whic…"
+  },
+  {
+    "date": "2022-06-15",
+    "title": "Use Case 1: Create Folder in Outlook with UiPath",
+    "short": "Use Case 1",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/use-case-1-create-folder-outlook-uipath-ashok-karale",
+    "excerpt": "Problem Statement: Create email folder with user defined name in Outlook Solution: No one click solution. Long way solution is using Interop package Code: Just for learning purpose."
+  }
+]

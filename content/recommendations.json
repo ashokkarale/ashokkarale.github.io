@@ -1,0 +1,65 @@
+{
+  "_note": "From LinkedIn recommendations. Never add the recommender's name, photo or company; use their designation and relationship only. Each paragraph is a separate string; the first one shows by default.",
+  "items": [
+    {
+      "date": "2026-08",
+      "designation": "Delivery Head, Intelligent Process Automation",
+      "relation": "Managed Ashok directly",
+      "text": [
+        "I had the privilege of working with Ashok in the capacity of Delivery Head for IPA, and I can confidently say that Ashok is an exceptional automation leader and a leading UiPath MVP. His cutting-edge knowledge of UiPath Agentic AI, combined with a strategic vision, has consistently delivered transformative results for our organization.",
+        "What sets Ashok apart is his deep technical expertise and ability to design scalable, efficient, and robust enterprise solutions that seamlessly bridge traditional automation with advanced AI capabilities to align perfectly with business objectives.",
+        "He not only possesses mastery over the UiPath ecosystem and intelligent agentic workflows, but he also excels in stakeholder management, architectural governance, and process optimization.",
+        "Throughout our collaboration, Ashok demonstrated outstanding problem-solving skills, acute attention to detail, and a proactive approach to pioneering next-generation technologies. His ability to mentor teams, share cutting-edge insights, and foster continuous innovation makes him a true luminary in the automation space.",
+        "I highly recommend Ashok for any organization looking to stay ahead of the curve and drive true digital transformation through advanced AI and intelligent automation. He is an invaluable asset and a phenomenal team player."
+      ]
+    },
+    {
+      "date": "2026-05",
+      "designation": "AI & Automation Analyst and Project Manager",
+      "relation": "Worked with Ashok on the same team",
+      "text": [
+        "I had the pleasure of working with Ashok for almost two years, and I can genuinely say he's one of those colleagues who makes the whole team better.",
+        "When I think about his growth over this time, what stands out most is how he evolved into the architect and senior developer he is today. He started digging deeper into how things are built, not just making them work, but making them work well and scale properly. You could see him constantly researching better approaches and pushing for more robust solutions.",
+        "Alongside the technical growth, he also stepped up in terms of ownership. He became more independent, took initiative, and you could trust him to run with things without needing to check in constantly. That kind of reliability is rare and genuinely valuable.",
+        "I'm honestly sad to see him leave the team - he was a real asset, both for what he delivered and for the energy he brought. Any team that gets to work with Ashok is lucky to have him."
+      ]
+    },
+    {
+      "date": "2026-04",
+      "designation": "Senior Manager, Transformation",
+      "relation": "Managed Ashok directly",
+      "text": [
+        "I am delighted to recommend Ashok for his exemplary performance as a UiPath Developer and Team Lead. He possesses deep expertise in RPA and has consistently delivered scalable, high-quality automation solutions aligned with business objectives. In his leadership role, he effectively managed team deliverables, fostered collaboration, and ensured timely and efficient project execution.",
+        "Ashok is also highly regarded for his commitment to capability building—he has actively mentored team members and played a pivotal role in imparting UiPath knowledge, thereby strengthening the team's overall proficiency. His professionalism, problem-solving approach, and dedication make him a strong asset to any organization."
+      ]
+    },
+    {
+      "date": "2026-04",
+      "designation": "Senior RPA Developer",
+      "relation": "Reported to Ashok directly",
+      "text": [
+        "I had the pleasure of working alongside Ashok, and I can confidently say he is one of the most resourceful and knowledgeable colleagues I've had. What truly sets him apart is his ability to think outside the box no matter how complex a challenge, he always comes up with creative, alternative approaches that others might overlook.",
+        "Ashok has a deep understanding of his domain, and he pairs that expertise with a genuine willingness to help. He's the kind of person who doesn't just solve problems, he makes sure everyone around him understands the solution too. His collaborative spirit and positive attitude make him a joy to work with.",
+        "Beyond his technical strengths, Ashok brings reliability and calm to the team, especially under pressure. Any team would be fortunate to have him."
+      ]
+    },
+    {
+      "date": "2024-02",
+      "designation": "Senior Architect, RPA & Agentic AI",
+      "relation": "Managed Ashok directly",
+      "text": [
+        "I am pleased to recommend Ashok, Ashok is very experienced, calm and composed professional. I had worked with him for various RPA Automations and all of them were complex, He was able to deliver best performance. His in-depth knowledge on UiPath, SAP and relevant suggestions during review sessions, raised the bar in our deliverables.",
+        "Ashok is hard working, proactive, always ready to take challenges and always ready to delivery beyond his duty!",
+        "Finally, I would say - Ashok is excellent team player and possess potential to deliver high quality work, It is a treat for any manager to have Ashok on his/her project as nothing less of perfect can come of him."
+      ]
+    },
+    {
+      "date": "2024-01",
+      "designation": "Intelligent Automation Practitioner, PMP",
+      "relation": "Senior colleague",
+      "text": [
+        "Ashok has been one of the best developer I have come across, he really uses his imagination for perfect solution implementation of any RPA Bot, his codes are very neat and very easy to understand for another developer. He can work under immense pressure and can deliver projects on time without any delays."
+      ]
+    }
+  ]
+}

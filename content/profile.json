@@ -1,0 +1,48 @@
+{
+  "name": "Ashok Karale",
+  "headline": "AI Governance & Automation Solution Architect · Architecting secure agentic workflows",
+  "role": "Manager – Intelligent Process Platform",
+  "company": "Capgemini Invent",
+  "location": "Pune, India",
+  "photo": "assets/photo.png",
+  "chips": [
+    { "text": "2x UiPath MVP · AI & Agentic Workflows" },
+    { "text": "UiPath Coded Agent Challenge 2025 Winner" },
+    { "text": "Azure AI Apps & Agents Certified (103)" }
+  ],
+  "ctas": [
+    { "label": "Connect on LinkedIn", "url": "https://www.linkedin.com/in/ashokkarale", "primary": true },
+    { "label": "Invite me to speak", "url": "#contact" }
+  ],
+  "featured": [
+    {
+      "kicker": "Global top 3 · Dec 2025",
+      "title": "UiPath Specialist Coded Agent Challenge",
+      "detail": "Assistmaigic, a GenAI customer care agent built with UiPath coded agents.",
+      "url": "https://forum.uipath.com/t/assistmaigic-customer-care-agent/5675258"
+    },
+    {
+      "kicker": "Speaker · Aug 2026",
+      "title": "Governing Enterprise-Ready Agents",
+      "detail": "The UiPath governance framework for deploying AI agents securely, at Agent Builders Community Day Pune.",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-agent-builders-community-day-pune/"
+    },
+    {
+      "kicker": "Certified · 2026",
+      "title": "Agentic Automation Professional",
+      "detail": "Plus Azure AI Apps & Agents Developer and Claude Certified Developer and Associate.",
+      "url": "#credentials"
+    }
+  ],
+  "bio": [
+    "I'm an AI Governance & Automation Solution Architect who helps enterprises move from rule-based RPA to secure, governed agentic AI. As Manager, Intelligent Process Platform at Capgemini Invent, I design multi-agent workflows with UiPath Maestro, Agent Builder, coded agents and MCP servers, and build the Centres of Excellence that keep them compliant at scale. In 14+ years I've gone from SAP scripting to agentic architecture, and earned 23 certifications along the way, including UiPath Agentic Automation Professional, Azure AI Apps & Agents and Claude Certified Developer. I'm a 2x UiPath MVP, won the UiPath Coded Agent Challenge, and have shared {forum.solutions}+ solutions on the UiPath Forum."
+  ],
+  "links": [
+    { "label": "LinkedIn", "handle": "in/ashokkarale", "url": "https://www.linkedin.com/in/ashokkarale" },
+    { "label": "UiPath Forum", "handle": "@ashokkarale", "url": "https://forum.uipath.com/u/ashokkarale" },
+    { "label": "Medium", "handle": "@karaleashoks", "url": "https://medium.com/@karaleashoks" },
+    { "label": "X / Twitter", "handle": "@KaraleAshok", "url": "https://x.com/KaraleAshok" },
+    { "label": "UiPath Credentials", "handle": "karaleashok", "url": "https://credentials.uipath.com/profile/karaleashok" }
+  ],
+  "contactNote": "Talks on agentic AI, community collaborations, and conversations about AI agents and intelligent automation"
+}

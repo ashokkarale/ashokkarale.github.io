@@ -1,0 +1,168 @@
+{
+  "_note": "Imported from LinkedIn Skills.csv and grouped by hand. Re-importing adds only new skills, into the inbox group; move them into named groups. Groups with no items are hidden.",
+  "inboxGroup": "More skills",
+  "journey": [
+    {
+      "years": "2025–2026",
+      "title": "Agentic era",
+      "color": "--l1",
+      "summary": "Agentic Associate and Professional, Solution Architect Pro, Azure AI agents, 2x MVP.",
+      "skills": [
+        "Agentic Automation",
+        "Agentic AI Development",
+        "UiPath Agent Builder",
+        "Orchestration",
+        "Python (Programming Language)",
+        "Azure AI Foundry",
+        "Solution Architecture"
+      ]
+    },
+    {
+      "years": "2023–2024",
+      "title": "Integration & AI",
+      "color": "--l3",
+      "summary": "Workato, UiARD and Specialized AI; business analyst track; solution design for bots.",
+      "skills": [
+        "Integration Platform as a Service (iPaaS)",
+        "Artificial Intelligence (AI)",
+        "Optical Character Recognition (OCR)",
+        "Requirements Analysis",
+        "Business Process"
+      ]
+    },
+    {
+      "years": "2019–2022",
+      "title": "UiPath developer",
+      "color": "--l2",
+      "summary": "RPA Developer: web, SAP, Outlook and O365 automation; Azure and Power Platform fundamentals.",
+      "skills": [
+        "UiPath",
+        "Web Scraping",
+        "Office 365",
+        "Microsoft Power Platform",
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "years": "2016–2018",
+      "title": ".NET & first RPA",
+      "color": "--l4",
+      "summary": "Microsoft exams in C# and ASP.NET MVC; Automation Anywhere certified.",
+      "skills": [
+        "C#",
+        ".NET Framework",
+        "Visual Basic",
+        "Automation Anywhere",
+        "Robotic Process Automation (RPA)"
+      ]
+    },
+    {
+      "years": "2012–2015",
+      "title": "Office & SAP scripting",
+      "color": "--l5",
+      "summary": "Process Executive: VB scripting for SAP, VBA macros for reporting.",
+      "skills": [
+        "Visual Basic for Applications (VBA)",
+        "VBScript",
+        "Macros",
+        "Microsoft Excel Macros",
+        "SAP ERP",
+        "Microsoft Office"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "name": "Agentic & AI",
+      "items": [
+        "Agentic AI Development",
+        "Agentic Automation",
+        "UiPath Agent Builder",
+        "Azure AI Foundry",
+        "Artificial Intelligence (AI)",
+        "Optical Character Recognition (OCR)"
+      ]
+    },
+    {
+      "name": "Automation platforms",
+      "items": [
+        "UiPath",
+        "Robotic Process Automation (RPA)",
+        "Automation Anywhere",
+        "Microsoft Power Platform",
+        "Integration Platform as a Service (iPaaS)",
+        "Orchestration",
+        "Process Automation",
+        "Automation",
+        "Automated Processes",
+        "Office Automation",
+        "Selenium WebDriver",
+        "Test Automation Tools",
+        "Web Scraping"
+      ]
+    },
+    {
+      "name": "Architecture & delivery",
+      "items": [
+        "Solution Architecture",
+        "Technical Design",
+        "Business Solutions Development",
+        "Requirements Analysis",
+        "Requirements Gathering",
+        "User Stories",
+        "Business Process",
+        "Change Requests",
+        "Change Control",
+        "Test Procedures",
+        "Documentation",
+        "Peer Reviews"
+      ]
+    },
+    {
+      "name": "Programming & data",
+      "items": [
+        "Python (Programming Language)",
+        "C#",
+        "C (Programming Language)",
+        ".NET Framework",
+        "Visual Basic",
+        "Visual Basic for Applications (VBA)",
+        "VBScript",
+        "Macros",
+        "Microsoft Excel Macros",
+        "Microsoft SQL Server",
+        "Web Services API",
+        "Programming",
+        "Git",
+        "Version Control",
+        "Data Manipulation",
+        "Debugging",
+        "Coding Standards"
+      ]
+    },
+    {
+      "name": "Enterprise systems & cloud",
+      "items": [
+        "SAP ERP",
+        "Microsoft Azure",
+        "Office 365",
+        "Microsoft Office"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "items": [
+        "Stakeholder Management",
+        "Project Management",
+        "Communication",
+        "Problem Solving",
+        "Analytical Skills",
+        "Computer Science"
+      ]
+    },
+    {
+      "name": "More skills",
+      "items": []
+    }
+  ]
+}

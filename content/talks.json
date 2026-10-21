@@ -1,0 +1,84 @@
+{
+  "topics": [
+    { "id": "coded-agents", "title": "Coded agents & MCP servers", "summary": "Building agents in code with the UiPath SDK, Python, LangChain and LangGraph, and exposing tools through MCP servers." },
+    { "id": "agent-governance", "title": "Governing enterprise-ready agents", "summary": "Guardrails, oversight and governance for running AI agents safely at enterprise scale." },
+    { "id": "agentic-platform", "title": "Agentic automation on UiPath", "summary": "Agent Builder, agentic interfaces in Apps, Test Suite and Maestro orchestration, hands-on." },
+    { "id": "genai", "title": "GenAI activities in UiPath", "summary": "Summarisation, PII filtering, language detection, rewriting, email generation and translation with UiPath GenAI activities." },
+    { "id": "release-demos", "title": "UiPath release deep dives", "summary": "Live demos of what's new in each UiPath release and how to use it." },
+    { "id": "community", "title": "Community meetups", "summary": "Organising and hosting UiPath Pune chapter meetups and workshops." }
+  ],
+  "events": [
+    {
+      "date": "2026-10-08", "dateNote": "year inferred from the event page", "verify": true,
+      "short": "Agent memory", "title": "Unlocking Agent Memory with UiPath: Building Context-Aware AI Agents",
+      "event": "UiPath Pune chapter", "role": "Organizer", "format": "Virtual", "city": "Pune", "topic": "community",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-unlocking-agent-memory-with-uipath-building-context-aware-ai-agents/"
+    },
+    {
+      "date": "2026-08-08",
+      "short": "Agent Builders Day", "title": "Governing Enterprise-Ready Agents (with Ruchir Mahajan)",
+      "event": "Agent Builders Community Day Pune", "role": "Speaker", "format": "In-person", "city": "Pune · Yashada Auditorium", "topic": "agent-governance",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-agent-builders-community-day-pune/"
+    },
+    {
+      "date": "2026-03-24",
+      "short": "Agentic Fast-Track", "title": "Low-Code to Pro-Code: Mastering Coded Agents & MCP Servers (Part 5 of 6)",
+      "event": "The Agentic Automation Fast-Track · UiPath Delhi NCR", "role": "Host & Speaker", "format": "Virtual", "city": "Delhi NCR", "topic": "coded-agents",
+      "url": "https://community.uipath.com/events/details/uipath-delhi-ncr-presents-low-code-to-pro-code-mastering-coded-agents-amp-mcp-servers-part-5-of-6/"
+    },
+    {
+      "date": "2026-01-29", "dateNote": "year inferred from the event page", "verify": true,
+      "short": "First AI Agent", "title": "Build Your First AI Agent using UiPath (hands-on workshop)",
+      "event": "UiPath Pune chapter", "role": "Host", "format": "Virtual", "city": "Pune", "topic": "community",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-build-your-first-ai-agent-using-uipath-virtual-hands-on-workshop/"
+    },
+    {
+      "date": "2025-12-13",
+      "short": "Coded Agents", "title": "All about Coded Agents: UiPath SDK, MCP Server, Python, LangChain, LangGraph",
+      "event": "UiPath 2025 Year-End In-Person Meetup", "role": "Speaker & Organizer", "format": "In-person", "city": "Pune · Globant", "topic": "coded-agents",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-uipath-2025-year-end-in-person-meetup-deep-dive-into-screenplay-amp-coded-agents/"
+    },
+    {
+      "date": "2025-09-08", "dateNote": "date the episode was shared on the forum",
+      "short": "Podcast", "title": "Robotic Process Automation with a UiPath MVP",
+      "event": "Vishwas Ke Saath Podcast", "role": "Podcast guest", "format": "Podcast", "city": "", "topic": "community",
+      "url": "https://forum.uipath.com/t/robotic-process-automation-ashok-karale-uipath-most-valuable-professional-vishwas-ke-saath-podcast/5250202"
+    },
+    {
+      "date": "2025-05-07",
+      "short": "Agents in Action", "title": "Agents in Action series (4 sessions: Agent Builder, Apps, Test Suite, Maestro)",
+      "event": "UiPath Pune chapter", "role": "Host & Speaker", "format": "Virtual", "city": "Pune", "topic": "agentic-platform",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-agents-in-action-series/"
+    },
+    {
+      "date": "2024-12-14",
+      "short": "Year-End 2024", "title": "Latest Updates & Live Demos: UiPath 2024.10 (with Abhimanyu Thite)",
+      "event": "Year-End UiPath In-Person Meetup", "role": "Speaker & Organizer", "format": "In-person", "city": "Pune · Globant", "topic": "release-demos",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-year-end-uipath-in-person-meetup-from-202410-updates-autopilot-to-agentic-ai-future/"
+    },
+    {
+      "date": "2024-07-27",
+      "short": "GenAI activities", "title": "Exploring UiPath GenAI Activities",
+      "event": "UiPath Pune chapter webinar", "role": "Speaker", "format": "Virtual", "city": "Pune", "topic": "genai",
+      "url": "https://forum.uipath.com/t/host-and-organizer-uipath-pune-community-event-on-exploring-genai-activities/774508"
+    },
+    {
+      "date": "2024-07-20",
+      "short": "Insights meetup", "title": "Mastering UiPath Insights: Dynamic Dashboards and Risk Management",
+      "event": "UiPath Pune in-person meetup", "role": "Organizer", "format": "In-person", "city": "Pune", "topic": "community",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-mastering-uipath-insights-dynamic-dashboards-and-risk-management-in-person-meetup/"
+    },
+    {
+      "date": "2023-01-07",
+      "short": "DU + HITL", "title": "Document Understanding with Human in the Loop",
+      "event": "UiPath Pune chapter", "role": "Organizer", "format": "Meetup", "city": "Pune", "topic": "community",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-document-understanding-with-human-in-the-loop/"
+    },
+    {
+      "date": "2022-12-10",
+      "short": "Apps deep dive", "title": "UiPath Apps and Industry-Led Use Case Deep Dive",
+      "event": "UiPath Pune in-person meetup", "role": "Organizer", "format": "In-person", "city": "Pune · Accelirate", "topic": "community",
+      "url": "https://community.uipath.com/events/details/uipath-pune-presents-uipath-apps-and-industry-lead-use-case-deep-dive-in-person-meetup/"
+    }
+  ]
+}

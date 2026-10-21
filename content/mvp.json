@@ -1,0 +1,43 @@
+{
+  "intro": "The UiPath MVP program looks at three things: technical expertise, community contribution and vision. Here is the evidence for each, with a link to where you can check it.",
+  "pillars": [
+    {
+      "id": "tech", "title": "I · Technical expertise", "sub": "platforms · builds · tutorials",
+      "summary": "Hands-on UiPath depth since 2019, with production work across SAP and ServiceNow and a current focus on agentic automation.",
+      "lines": ["c", "w"],
+      "rows": [
+        { "label": "Current role", "value": "Manager – Intelligent Process Automation, Capgemini Invent", "url": "https://community.uipath.com/events/details/uipath-delhi-ncr-presents-the-agentic-automation-fast-track/" },
+        { "label": "Platforms", "value": "UiPath, SAP, ServiceNow", "url": "https://forum.uipath.com/u/ashokkarale" },
+        { "label": "Certifications", "value": "UiPath Credentials profile", "url": "https://credentials.uipath.com/profile/karaleashok" },
+        { "label": "Tutorials", "value": "ClosedXml Excel automation; uipathcli 3-part series", "url": "https://forum.uipath.com/t/automating-excel-using-closedxml-without-workbook-excel-activities/5721277" },
+        { "label": "Builds", "value": "AssistmAIgic (HyperHack 2024); AssistmAIgic customer care agent (2025)", "url": "https://forum.uipath.com/t/assistmaigic-customer-care-agent/5675258" }
+      ]
+    },
+    {
+      "id": "comm", "title": "II · Community contribution", "sub": "forum · events · recognition",
+      "summary": "Daily forum help, a Pune chapter that meets in person, and talks on agentic automation.",
+      "lines": ["f", "s", "w"],
+      "rows": [
+        { "label": "Accepted forum solutions", "value": "{forum.solutions}", "url": "https://forum.uipath.com/u/ashokkarale/summary" },
+        { "label": "Forum rank", "value": "{forum.title} · Moderator", "url": "https://forum.uipath.com/u/ashokkarale" },
+        { "label": "Forum posts", "value": "{forum.posts}", "url": "https://forum.uipath.com/u/ashokkarale/activity" },
+        { "label": "Likes received", "value": "{forum.likesReceived}", "url": "https://forum.uipath.com/u/ashokkarale/summary" },
+        { "label": "Days active on the forum", "value": "{forum.daysVisited}", "url": "https://forum.uipath.com/u/ashokkarale/summary" },
+        { "label": "Sessions spoken or hosted", "value": "{derived.sessions}", "url": "#journey" },
+        { "label": "Community events organised", "value": "{derived.organised}", "url": "#journey" },
+        { "label": "Recognition", "value": "Top forum solution provider, 2025", "url": "https://www.uipath.com/community-blog/community-news/a-community-in-motion" },
+        { "label": "Product feedback", "value": "Ideas posted for Studio and Orchestrator", "url": "https://forum.uipath.com/t/more-options-to-get-queue-items-property-filterstrategy/744067" }
+      ]
+    },
+    {
+      "id": "vision", "title": "III · Vision", "sub": "where I'm putting my time",
+      "summary": "What I want to keep doing for the community.",
+      "points": [
+        "Help developers move from RPA to agentic automation with practical, demo-first sessions on coded agents, MCP servers and Maestro.",
+        "Keep enterprise agents trustworthy: share patterns for governance, human-in-the-loop review and healing agents.",
+        "Grow the UiPath Pune chapter's in-person meetups and hands-on workshops.",
+        "Keep answering on the UiPath Forum and mentor people who are new to RPA."
+      ]
+    }
+  ]
+}

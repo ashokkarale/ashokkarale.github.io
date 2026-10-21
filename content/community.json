@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2019-07-30", "short": "Joined the Forum",
+    "title": "Joined the UiPath Community Forum",
+    "detail": "First day on forum.uipath.com, the start of {forum.solutions} accepted solutions.",
+    "url": "https://forum.uipath.com/u/ashokkarale"
+  },
+  {
+    "date": "2022-12-10", "short": "Pune organiser",
+    "title": "Organiser, UiPath Pune chapter",
+    "detail": "First listed as an organiser of a UiPath Pune in-person meetup.",
+    "url": "https://community.uipath.com/events/details/uipath-pune-presents-uipath-apps-and-industry-lead-use-case-deep-dive-in-person-meetup/"
+  },
+  {
+    "date": "2024-11-20", "short": "HyperHack 2024",
+    "title": "HyperHack 2024 entry: AssistmAIgic",
+    "detail": "Built and submitted AssistmAIgic for UiPath HyperHack 2024.",
+    "url": "https://forum.uipath.com/t/assistmaigic-hyperhack-2024/780625"
+  },
+  {
+    "date": "2025", "short": "UiPath MVP 2025",
+    "title": "UiPath Community MVP 2025",
+    "detail": "Recognised as a UiPath Community Most Valuable Professional for 2025.",
+    "url": "https://community.uipath.com/events/details/uipath-delhi-ncr-presents-the-agentic-automation-fast-track/"
+  },
+  {
+    "date": "2025-11-03", "short": "Agent challenge",
+    "title": "AssistmAIgic customer care agent",
+    "detail": "Community challenge submission: an agentic customer care assistant, 700+ views.",
+    "url": "https://forum.uipath.com/t/assistmaigic-customer-care-agent/5675258"
+  },
+  {
+    "date": "2025-12", "short": "Top solver 2025",
+    "title": "Top forum solution provider, 2025",
+    "detail": "UiPath's community review \"2025: A community in motion\" names Ashok Karale and Anil Gorthi as offering the most solutions on the forum.",
+    "url": "https://www.uipath.com/community-blog/community-news/a-community-in-motion"
+  }
+]

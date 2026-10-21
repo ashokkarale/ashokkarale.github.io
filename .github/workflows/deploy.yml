@@ -1,0 +1,65 @@
+name: Refresh data and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "30 20 * * *" # every day at 02:00 IST: refresh forum and Medium data
+  workflow_dispatch:
+
+# Nothing by default; each job asks only for what it needs.
+permissions: {}
+
+# One deploy at a time; a newer run cancels an older one still waiting.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # to commit refreshed data back to the repository
+    steps:
+      # Actions are pinned to exact commits, not tags, so they can't change underneath us.
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+
+      - name: Refresh live data (UiPath Forum, Medium)
+        run: node scripts/build-data.mjs
+
+      - name: Validate data before publishing
+        run: node scripts/validate-data.mjs
+
+      - name: Save refreshed data to the repository
+        run: |
+          git config user.name "portfolio-bot"
+          git config user.email "portfolio-bot@users.noreply.github.com"
+          git add data assets/data.js
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh portfolio data"
+            git push
+          fi
+
+      - name: Build the public site (index.html and assets only)
+        run: node scripts/build-site.mjs
+
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5

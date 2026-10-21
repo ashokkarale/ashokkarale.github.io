@@ -1,0 +1,16 @@
+{
+  "name": "ashok-karale-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Ashok Karale's portfolio: career line map, UiPath MVP case file and profile, built from live UiPath Forum and Medium data.",
+  "type": "module",
+  "scripts": {
+    "refresh": "node scripts/build-data.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "build": "node scripts/build-data.mjs && node scripts/validate-data.mjs && node scripts/build-site.mjs",
+    "import:linkedin": "node scripts/import-linkedin.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

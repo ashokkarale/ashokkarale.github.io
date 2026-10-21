@@ -1,0 +1,177 @@
+{
+  "_note": "Import from LinkedIn with: npm run import:linkedin -- \"path\\to\\export-folder\". Or add by hand: name, issuer, date (YYYY-MM or YYYY-MM-DD), optional expires, credentialId, url (verify link).",
+  "profileUrl": "https://credentials.uipath.com/profile/karaleashok",
+  "items": [
+    {
+      "name": "Claude Certified Developer - Foundations",
+      "issuer": "Anthropic",
+      "date": "2026-10",
+      "expires": "2027-10",
+      "credentialId": "76619a4a-8bda-42f2-a18a-31e6f3d052b4"
+    },
+    {
+      "name": "Claude Certified Associate - Foundations",
+      "issuer": "Anthropic",
+      "date": "2026-10",
+      "expires": "2027-10",
+      "credentialId": "2998b7f8-42ac-4e14-80e3-5fe71d1e04da"
+    },
+    {
+      "name": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+      "issuer": "Microsoft",
+      "date": "2026-07",
+      "expires": "2027-07",
+      "credentialId": "3075C59F76C48988",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/Ashok-Karale/3075C59F76C48988?sharingId=8BCFC69C9BC6080A"
+    },
+    {
+      "name": "UiPath Certified Professional Automation Business Analyst Associate Certification",
+      "issuer": "UiPath",
+      "date": "2026-05",
+      "expires": "2029-05",
+      "credentialId": "182751736",
+      "url": "https://credentials.uipath.com/07b112f2-5848-4e4b-89a0-1a632486b804"
+    },
+    {
+      "name": "UiPath Certified Professional Agentic Automation Professional Certification",
+      "issuer": "UiPath",
+      "date": "2026-04",
+      "expires": "2029-04",
+      "credentialId": "180871028",
+      "url": "https://credentials.uipath.com/8cad0f3b-6f7c-418e-840b-7babf3624367"
+    },
+    {
+      "name": "UiPath Community Most Valuable Professional (MVP)",
+      "issuer": "UiPath",
+      "date": "2026-03",
+      "expires": "2027-03",
+      "credentialId": "176441025",
+      "url": "https://credentials.uipath.com/02992fc7-3a89-4c20-a6b4-72cac27f417e"
+    },
+    {
+      "name": "UiPath Certified Professional Automation Solution Architect Professional Certification",
+      "issuer": "UiPath",
+      "date": "2025-12",
+      "expires": "2028-12",
+      "credentialId": "168649304",
+      "url": "https://credentials.uipath.com/2fcae692-8c4c-43f2-9c9d-78e433c2e6a1"
+    },
+    {
+      "name": "UiPath Certified Professional Agentic Automation Associate Certification",
+      "issuer": "UiPath",
+      "date": "2025-07",
+      "expires": "2028-07",
+      "credentialId": "156456373",
+      "url": "https://credentials.uipath.com/0602096c-e23a-4dc0-8fdf-7063907fedeb"
+    },
+    {
+      "name": "UiPath Community Most Valuable Professional (MVP)",
+      "issuer": "UiPath",
+      "date": "2025-03",
+      "credentialId": "135998589",
+      "url": "https://credentials.uipath.com/e6071f46-ecfc-41a2-881f-2a5fe53557d9"
+    },
+    {
+      "name": "UiPath Certified Professional Automation Business Analyst Professional Certification",
+      "issuer": "UiPath",
+      "date": "2024-09",
+      "expires": "2027-09",
+      "credentialId": "116716121",
+      "url": "https://credentials.uipath.com/9320a291-b6cf-46c2-b395-2e3255c35b79"
+    },
+    {
+      "name": "UiPath Certified Professional Automation Developer Professional Certification",
+      "issuer": "UiPath",
+      "date": "2024-07",
+      "expires": "2027-07",
+      "credentialId": "107758355",
+      "url": "https://credentials.uipath.com/9840f31d-c018-423c-9ade-b79d276be43d"
+    },
+    {
+      "name": "UiPath Certified Professional Specialized AI Associate Certification",
+      "issuer": "UiPath",
+      "date": "2024-07",
+      "expires": "2027-07",
+      "credentialId": "110517621",
+      "url": "https://credentials.uipath.com/fad92634-8308-4a86-a5cf-bb422cf192c2"
+    },
+    {
+      "name": "UiPath Certified Professional Automation Developer Associate Certification",
+      "issuer": "UiPath",
+      "date": "2024-02",
+      "expires": "2027-02",
+      "credentialId": "93884421",
+      "url": "https://credentials.uipath.com/9c9318c5-1352-4174-933a-c958f5583aed"
+    },
+    {
+      "name": "UiPath Certified Professional Advanced RPA Developer (UiARD) Certification",
+      "issuer": "UiPath",
+      "date": "2023-11",
+      "expires": "2026-10",
+      "credentialId": "86935486",
+      "url": "https://credentials.uipath.com/e31acb7f-2cb9-4e41-827a-84f90b6c14f7"
+    },
+    {
+      "name": "Automation Pro I",
+      "issuer": "Workato",
+      "date": "2023-08",
+      "expires": "2025-08",
+      "credentialId": "80280506",
+      "url": "https://credentials.workato.com/dd7da70e-d2cb-400d-ba8b-d3b09ac9268e"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "2023-01",
+      "expires": "2026-01",
+      "url": "https://www.credly.com/badges/ecc1d4d1-f4d5-497c-9e50-c3336c6b2ef0/linked_in_profile"
+    },
+    {
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "issuer": "Microsoft",
+      "date": "2021-07",
+      "credentialId": "15864417",
+      "url": "https://www.credly.com/badges/ce47546f-2b90-417c-aea1-08c631c834fc?source=linked_in_profile"
+    },
+    {
+      "name": "Microsoft Certified: Power Platform Fundamentals",
+      "issuer": "Microsoft",
+      "date": "2021-05",
+      "credentialId": "H812-5987"
+    },
+    {
+      "name": "Automation Anywhere Certified Advanced RPA Professional (V11.0)",
+      "issuer": "Automation Anywhere",
+      "date": "2019-09",
+      "credentialId": "13731778",
+      "url": "https://certificates.automationanywhere.com/k3xntz8f"
+    },
+    {
+      "name": "Automation Anywhere Certified Advanced RPA Professional (V10.0)",
+      "issuer": "Automation Anywhere",
+      "date": "2018-10",
+      "credentialId": "12021721",
+      "url": "https://certificates.automationanywhere.com/84l74h9q"
+    },
+    {
+      "name": "Exam 483: Programming in C#",
+      "issuer": "Microsoft",
+      "date": "2018-05",
+      "credentialId": "G826-8251",
+      "url": "https://www.youracclaim.com/badges/3556e588-6618-4a41-a6e5-9583620a0df2/linked_in_profile"
+    },
+    {
+      "name": "MCSA: Web Applications - Certified 2018",
+      "issuer": "Microsoft",
+      "date": "2018-05",
+      "url": "https://www.youracclaim.com/badges/59a1e870-8e69-4a59-a62d-bcd51dd74156/linked_in_profile"
+    },
+    {
+      "name": "Exam 486: Developing ASP.NET MVC Web Applications",
+      "issuer": "Microsoft",
+      "date": "2016-12",
+      "credentialId": "F924-4026",
+      "url": "https://www.youracclaim.com/badges/5828e67c-95c0-4ce6-9e34-a9f5817cff90/linked_in_profile"
+    }
+  ]
+}

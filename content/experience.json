@@ -1,0 +1,100 @@
+[
+  {
+    "company": "Capgemini Invent",
+    "title": "Manager - Intelligent Process Platform",
+    "location": "Pune District",
+    "start": "2026-05",
+    "end": "",
+    "highlights": [
+      "Agentic AI enablement: Conducted Agentic AI enabler sessions for team members across IPP, building practical skills in UiPath agents, MCP Servers, and agentic design patterns. Followed up with a 15-day agent-build challenge to turn learning into hands-on builds.",
+      "Certification drive: Guided team members toward UiPath and AI certifications, helping developers get certified and strengthening the practice’s delivery readiness.",
+      "Agentic AI PoCs: Designed and built agentic AI proofs of concept, including a conversational Orchestrator management agent on a Coded MCP Server architecture and an intelligent invoice processing agent with human-in-the-loop validation, to show clients the value of next-generation automation.",
+      "Escalation handling: Owned technical escalations on automation engagements, diagnosing root causes, stabilizing production issues, and restoring client confidence through clear communication and corrective action plans.",
+      "Business development: Contributed to business development by identifying automation and agentic AI opportunities with existing and prospective clients, helping grow the IPP automation pipeline.",
+      "Presales support: Supported presales with solution architecture, effort estimation, RFP responses, and client demos, positioning Capgemini’s agentic automation capabilities in pursuits.",
+      "Recognition: The Transformer [Quarterly Award]"
+    ]
+  },
+  {
+    "company": "Wipro",
+    "title": "Technical Lead",
+    "location": "Pune District",
+    "start": "2024-02",
+    "end": "2026-05",
+    "highlights": [
+      "Solution architecture: Designed scalable, reusable automation architectures on UiPath (REFramework, Orchestrator queues, dispatcher–performer models) processes across Finance/HR/Supply Chain/Insurance domains.",
+      "Delivery leadership: Led a team of developers and BAs across two concurrent projects. Owned estimation, sprint planning, code reviews, and release management, and delivered releases on time.",
+      "Intelligent automation: Integrated Document Understanding, AI Center, and GenAI/LLM capabilities to automate unstructured document processing such as invoices and claims, reaching higher extraction accuracy.",
+      "Agentic automation: Architected agentic workflows that combine UiPath Agents, Maestro, and API integrations, moving clients from rule-based bots to [AI-driven decisioning or human-in-the-loop] orchestration.",
+      "Platform and infrastructure: Planned and administered Orchestrator and Automation Cloud environments, including license optimization, bot scheduling, credential vaults, and high-availability setup for unattended robots.",
+      "Governance and CoE: Set up or strengthened the Automation CoE with coding standards, reusable component libraries, a design-review gate, and monitoring dashboards, cutting defect leakage.",
+      "Pre-sales and client engagement: Supported RFPs, solution demos, and PoCs that helped win deals. Served as the primary technical point of contact for client stakeholders.",
+      "Integration: Built integrations with SAP, Salesforce, ServiceNow, Oracle, mainframe, and REST/SOAP APIs, using API-first approaches where possible to make bots more resilient.",
+      "Hypercare and support: Established production support processes with SLA-based incident handling, exception analytics, and bot health monitoring, keeping bot uptime highest.",
+      "Talent building: Mentored developers toward UiPath certifications and ran internal upskilling sessions on agentic automation and best practices."
+    ]
+  },
+  {
+    "company": "Wipro",
+    "title": "Senior Developer",
+    "location": "Pune, Maharashtra, India",
+    "start": "2022-06",
+    "end": "2024-03",
+    "highlights": [
+      "Working on solution designing for the bots.",
+      "Development and Coding of RPA process as per the requirements using UiPath Studio.",
+      "Worked on SAP Automation, ServiceNow automation through API, Orchestrator API Automation.",
+      "Worked on Office 365 API to automate SharePoint, OneDrive.",
+      "Email monitoring automation through Outlook activities.",
+      "Experienced in preparing documents like Solution Design Document (SDD), help Business Analyst to prepare Process Definition Document (PDD), prepare Run Book document to handover bot to support team.",
+      "Experienced in Solution Designing for simple and medium complex processes.",
+      "Worked on Bot and Orchestrator on-premises to AWS cloud migration, high density bot setup, Classic to Modern folder migration."
+    ]
+  },
+  {
+    "company": "Infosys BPM",
+    "title": "RPA Developer",
+    "location": "Pune, Maharashtra, India",
+    "start": "2019-09",
+    "end": "2022-06",
+    "highlights": [
+      "Worked as UiPath developer automating Web, SAP, Outlook, O365, Desktop applications.",
+      "Delivered bots with highest standards in terms of functionality, readability, maintainability.",
+      "Prepare development specification document, bot run book and other documents required by support team for maintenance and support.",
+      "Worked on medium to complex level of complexity of automations.",
+      "Helped support team to troubleshoot issues in production, in case of L3 level issues or change requests and demands.",
+      "Write VBA scripts to provide custom solutions wherever needed."
+    ]
+  },
+  {
+    "company": "Infosys BPM",
+    "title": "Technical Process Specialist",
+    "location": "Pune, Maharashtra, India",
+    "start": "2016-02",
+    "end": "2019-08",
+    "highlights": [
+      "Tactical automation development and support.",
+      "Responsible for feasibility check, requirement gathering, coding, testing, deployment, support & maintenance. Preparation of training manuals for users.",
+      "Design, develop and deploy automation solutions.",
+      "Presenting ideas for process improvements with automation, including cost proposals to stakeholders and ensuring technical feasibility.",
+      "Innovate and develop high-value technology solutions to streamline the processes and save cost.",
+      "Working closely with process executives, team leads, stakeholders and provide quick turnaround to business requirements.",
+      "Troubleshooting, technical support of product or installation related issues.",
+      "Write scripts in VBA scripts."
+    ]
+  },
+  {
+    "company": "Infosys BPO",
+    "title": "Process Executive",
+    "location": "Pune Area, India",
+    "start": "2012-03",
+    "end": "2016-01",
+    "highlights": [
+      "Proficiency in Windows OS. Experience with remote desktop applications and help desk software.",
+      "Worked on Sourcing and Procurement, SAP MM Module tech support.",
+      "Worked on Purchase Order creation, Purchase order changes, Purchase order transmission, Purchase order follow-ups and more co-related responsibilities QA and Dev environment support.",
+      "VB scripting for SAP automation for known issue resolution.",
+      "VBA macro development for SAP and Excel to automate reporting."
+    ]
+  }
+]
