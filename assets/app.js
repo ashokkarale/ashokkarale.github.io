@@ -421,6 +421,24 @@
   const updated = new Date(D.generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
   $('#foot').textContent = `Data refreshed on ${updated}`;
 
+  /* ---------- visitor count (GoatCounter) ---------- */
+  // Site code from goatcounter.com (the "mycode" in mycode.goatcounter.com). The same
+  // address is allowed in index.html's security policy, so change both together.
+  // Leave it empty to switch the counter off. Only the published https site counts.
+  const GOATCOUNTER = 'ashokkarale';
+  if (GOATCOUNTER && location.protocol === 'https:') {
+    const gc = `https://${GOATCOUNTER}.goatcounter.com`;
+    // A plain image request records the visit, so no outside script has to be allowed.
+    if (!navigator.webdriver) {
+      new Image().src = `${gc}/count?p=/&t=${encodeURIComponent(document.title)}&r=${encodeURIComponent(document.referrer)}&rnd=${Date.now()}`;
+    }
+    // The footer simply stays as it is if the count can't be read.
+    fetch(`${gc}/counter/TOTAL.json`)
+      .then(r => (r.ok ? r.json() : null))
+      .then(c => { if (c?.count) $('#foot').textContent += ` · ${c.count} visitors`; })
+      .catch(() => {});
+  }
+
   /* ---------- scroll effects ---------- */
   // 1. A thin progress line under the top bar shows how far down the page you are.
   const bar = $('.bar');

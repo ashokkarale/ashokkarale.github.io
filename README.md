@@ -58,9 +58,17 @@ One-time setup on GitHub: **Settings → Pages → Build and deployment → Sour
 
 Locally, `npm run build` runs the same refresh, validate and build steps.
 
+## Visitor count
+
+The footer shows a total from [GoatCounter](https://www.goatcounter.com), using the site `ashokkarale.goatcounter.com`. It needs **Allow adding visitor counts on your website** enabled in the GoatCounter settings.
+
+To change the site, update `GOATCOUNTER` in `assets/app.js` and the matching address in the security policy in `index.html`. Leave `GOATCOUNTER` empty to switch the counter off.
+
+Visits are only counted on the published `https` site, and the number can lag by up to four hours. If the count can't be read, the footer just leaves it out.
+
 ## Security
 
 - Every link and image goes through an allow-list (`https://`, `#anchor`, `assets/`); anything else becomes `#`.
-- A Content Security Policy in `index.html` allows scripts only from this site.
+- A Content Security Policy in `index.html` allows scripts only from this site. The only outside connection it permits is GoatCounter, for the visitor count.
 - GitHub Actions are pinned to exact commits, and each job gets only the permissions it needs.
 - Recommenders are never named; personal data from the LinkedIn export (such as birth date) is not stored.
