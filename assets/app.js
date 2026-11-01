@@ -432,10 +432,11 @@
     if (!navigator.webdriver) {
       new Image().src = `${gc}/count?p=/&t=${encodeURIComponent(document.title)}&r=${encodeURIComponent(document.referrer)}&rnd=${Date.now()}`;
     }
-    // The footer simply stays as it is if the count can't be read.
-    fetch(`${gc}/counter/TOTAL.json`)
+    // GoatCounter already caches this for up to four hours, so the browser shouldn't add its own.
+    // The footer simply stays as it is if the count can't be read or is still zero.
+    fetch(`${gc}/counter/TOTAL.json`, { cache: 'no-store' })
       .then(r => (r.ok ? r.json() : null))
-      .then(c => { if (c?.count) $('#foot').textContent += ` · ${c.count} visitors`; })
+      .then(c => { if (c?.count && c.count !== '0') $('#foot').textContent += ` · ${c.count} visitors`; })
       .catch(() => {});
   }
 
