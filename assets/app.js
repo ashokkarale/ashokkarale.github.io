@@ -32,8 +32,9 @@
     return day ? `${day} ${mon} ${y}` : `${mon} ${y}`;
   };
 
-  // Shows two rows of a card grid per page. The page size follows the number of
-  // columns the grid currently has, so it adapts to the screen width.
+  // Shows two rows of a card grid per page, and at least four cards so phones don't
+  // need a long pager. The page size follows the number of columns the grid currently
+  // has, so it adapts to the screen width.
   function pager(gridSel, navSel, renderItem, label) {
     const grid = $(gridSel), nav = $(navSel);
     let items = [], page = 0, per = 0;
@@ -42,8 +43,9 @@
       if (!tracks || /none|repeat/.test(tracks)) return Math.max(1, Math.floor(grid.clientWidth / 300));
       return Math.max(1, tracks.split(' ').filter(Boolean).length);
     };
+    const pageSize = () => Math.max(4, columns() * 2);
     function draw() {
-      per = columns() * 2;
+      per = pageSize();
       const pages = Math.max(1, Math.ceil(items.length / per));
       page = Math.min(page, pages - 1);
       grid.innerHTML = items.slice(page * per, (page + 1) * per).map(renderItem).join('');
@@ -69,7 +71,7 @@
     addEventListener('resize', () => {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(() => {
-        const firstShown = page * per, next = columns() * 2;
+        const firstShown = page * per, next = pageSize();
         if (next !== per) { page = Math.floor(firstShown / next); draw(); }
       }, 150);
     });
@@ -90,6 +92,7 @@
   $('#name').textContent = P.name;
   // Show the name in the top bar whenever the profile heading is out of view.
   $('#bar-name').textContent = P.name;
+  $('#menu-name').textContent = P.name;
   if ('IntersectionObserver' in window) {
     new IntersectionObserver(([e]) => {
       const out = !e.isIntersecting;
@@ -109,10 +112,10 @@
     [yearsInIT, 'years in IT'],
     [(D.certifications?.items || []).length || null, 'certifications', '+'],
     [events.length || null, 'Speaking, hosting and organising events', '+'],
-    [F.solutions, 'UiPath Forum Leader & Moderator', '+', 'solutions'],
+    [F.solutions, 'solutions as UiPath Forum Leader & Moderator', '+'],
     [articleCount || null, 'Articles', '+']
-  ].filter(([v]) => v != null).map(([v, t, plus = '', unit = '']) =>
-    `<div><b>${esc(num(v))}${plus}${unit ? ` <small>${unit}</small>` : ''}</b><span>${t}</span></div>`).join('');
+  ].filter(([v]) => v != null).map(([v, t, plus = '']) =>
+    `<div><b>${esc(num(v))}${plus}</b><span>${esc(t)}</span></div>`).join('');
 
   // Calls to action in the hero, so visitors can act without scrolling to the end.
   $('#ctas').innerHTML = (P.ctas || []).map(c =>
@@ -382,8 +385,17 @@
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && !tMenu.hidden) { setMenu(false); tBtn.focus(); } });
   markScheme();
 
+  /* ---------- small-screen menu, opened from the logo ---------- */
+  const topBar = $('.bar'), menuBtn = $('#menu-btn');
+  const setNav = open => { topBar.classList.toggle('menu-open', open); menuBtn.setAttribute('aria-expanded', open); };
+  menuBtn.addEventListener('click', () => setNav(!topBar.classList.contains('menu-open')));
+  $('#site-nav').addEventListener('click', e => { if (e.target.closest('a')) setNav(false); });
+  document.addEventListener('click', e => { if (!e.target.closest('#menu-btn, #site-nav')) setNav(false); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && topBar.classList.contains('menu-open')) { setNav(false); menuBtn.focus(); } });
+  matchMedia('(min-width: 821px)').addEventListener('change', () => setNav(false));
+
   /* ---------- highlight the menu item for the section in view ---------- */
-  const navLinks = [...document.querySelectorAll('.bar nav a[href^="#"]')];
+  const navLinks = [...document.querySelectorAll('.bar nav a[href^="#"], .bar .nav-cta')];
   const spied = navLinks.map(a => document.getElementById(a.getAttribute('href').slice(1))).filter(Boolean);
   const setActive = id => navLinks.forEach(a => {
     if (a.getAttribute('href') === `#${id}`) a.setAttribute('aria-current', 'location'); else a.removeAttribute('aria-current');
@@ -424,9 +436,13 @@
   //    Skipped for visitors who prefer reduced motion; content is never hidden without script.
   if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
     const targets = document.querySelectorAll(
-      '.kit > *, .stats > div, .feat, section.blk .sh, .cyr, .era, .skill-rest, .talk, .sess, .rec, .art, .book');
+      '.kit > *, .stats > div, .feat, section.blk .sh, .cyr, .era, .skill-rest, .talk, .sess, .recs .rec, .art, .book');
     const io = new IntersectionObserver(entries => entries.forEach(e => {
-      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      if (!e.isIntersecting) return;
+      e.target.classList.add('shown');
+      io.unobserve(e.target);
+      // Once it has landed, drop the reveal styles so the element's own hover effects apply.
+      setTimeout(() => e.target.classList.remove('rv', 'shown'), 1100);
     }), { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
     targets.forEach(el => {
       const i = [...el.parentElement.children].indexOf(el);
