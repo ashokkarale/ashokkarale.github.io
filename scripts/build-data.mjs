@@ -22,13 +22,24 @@ async function readJSON(file, fallback) {
   }
 }
 
+// Live sources sometimes turn a request away, so wait and try again before giving up.
+const RETRY_DELAYS = [15_000, 45_000];
+
 async function request(url, accept) {
-  const res = await fetch(url, {
-    headers: { Accept: accept, 'User-Agent': 'ashok-portfolio-data/1.0 (+https://forum.uipath.com/u/ashokkarale)' },
-    signal: AbortSignal.timeout(30_000)
-  });
-  if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
-  return res;
+  for (let attempt = 0; ; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: { Accept: accept, 'User-Agent': 'ashok-portfolio-data/1.0 (+https://forum.uipath.com/u/ashokkarale)' },
+        signal: AbortSignal.timeout(30_000)
+      });
+      if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
+      return res;
+    } catch (err) {
+      if (attempt >= RETRY_DELAYS.length) throw err;
+      console.warn(`! ${url} failed (${err.message}); retrying`);
+      await new Promise(resolve => setTimeout(resolve, RETRY_DELAYS[attempt]));
+    }
+  }
 }
 
 async function fetchForum() {
